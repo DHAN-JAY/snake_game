@@ -25,7 +25,9 @@ const UsernameDialog = ({
             <input 
                 type="text" 
                 placeholder='username' 
-                onChange={(evt) => setUserName(evt.target.value)}  />
+                onChange={(evt) => setUserName(evt.target.value)}
+                value={username}
+            />
             <span 
                 onClick={
                     () => { 
@@ -36,6 +38,16 @@ const UsernameDialog = ({
                 className='game-btn'
             >
                 Start Game 
+            </span>
+            <span 
+                onClick={
+                    () => { 
+                        onClose(false);
+                    }
+                } 
+                className='game-btn'
+            >
+                Back
             </span>
         </div>
     )

@@ -148,7 +148,7 @@ div[data-tail-move="1"] {
 .active {
     background-color: lightgreen;
     text-shadow: -1px -1px black, 1px 1px white;
-    color: gray;
+    color: lightcoral;
 }
 .cover-board {
     position: absolute;
