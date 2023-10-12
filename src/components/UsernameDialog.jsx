@@ -31,7 +31,10 @@ const UsernameDialog = ({
             <span 
                 onClick={
                     () => { 
-                        onClose(false); 
+                        onClose(false);
+                        if(!username){
+                            setUserName("Anonymous")
+                        } 
                         startGame();
                     }
                 } 

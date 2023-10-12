@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/build/static/css/main.073c9b0a.css",
-    "main.js": "/build/static/js/main.7bae4b15.js",
-    "static/js/787.786e9145.chunk.js": "/build/static/js/787.786e9145.chunk.js",
-    "static/media/logo.svg": "/build/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/index.html",
-    "main.073c9b0a.css.map": "/build/static/css/main.073c9b0a.css.map",
-    "main.7bae4b15.js.map": "/build/static/js/main.7bae4b15.js.map",
-    "787.786e9145.chunk.js.map": "/build/static/js/787.786e9145.chunk.js.map"
+    "main.css": "/snake_game/static/css/main.db987d84.css",
+    "main.js": "/snake_game/static/js/main.3c4291ef.js",
+    "static/js/787.786e9145.chunk.js": "/snake_game/static/js/787.786e9145.chunk.js",
+    "static/media/food_1.png": "/snake_game/static/media/food_1.43f9bc4c9b57485ebebc.png",
+    "index.html": "/snake_game/index.html",
+    "main.db987d84.css.map": "/snake_game/static/css/main.db987d84.css.map",
+    "main.3c4291ef.js.map": "/snake_game/static/js/main.3c4291ef.js.map",
+    "787.786e9145.chunk.js.map": "/snake_game/static/js/787.786e9145.chunk.js.map"
   },
   "entrypoints": [
-    "build/static/css/main.073c9b0a.css",
-    "build/static/js/main.7bae4b15.js"
+    "static/css/main.db987d84.css",
+    "static/js/main.3c4291ef.js"
   ]
 }
