@@ -1,7 +1,7 @@
 import { BOARD_LENGTH, BOARD_WIDTH } from "../constants/gameBoard";
 
 
-export const setHighScore = (user = "anonymous", score = 0) => {
+export const setHighScore = (user = "Anonymous", score = 0) => {
     const leaderBoard = getLeaderBoardScores();
     if(!leaderBoard[user] || leaderBoard[user] < score){
         leaderBoard[user] = score;
@@ -9,7 +9,7 @@ export const setHighScore = (user = "anonymous", score = 0) => {
     }
 }
 
-export const getHighScore = (user = "anonymous") => {
+export const getHighScore = (user = "Anonymous") => {
     const leaderBoard = getLeaderBoardScores();
     return leaderBoard[user];
 }
