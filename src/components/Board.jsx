@@ -37,7 +37,7 @@ const Board = () => {
             {status !== GAME_STATUS.initial && board?.length &&
                 board.map((row, indexR) => {
                     return (
-                        <>
+                        <React.Fragment key={"row_"+indexR}>
                             {row?.length &&
                                 row.map((col, indexC) => {
 
@@ -46,7 +46,7 @@ const Board = () => {
                                     )
                                 })
                             }
-                        </>
+                        </React.Fragment>
                     )
                 })
             }
